@@ -11,19 +11,50 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: lightgrey;
+
+	margin-bottom: 30px;
 }
 
 .header__heading {
-	font-size: 54px;
+	font-size: 46px;
 }
 
 .header__text {
-	font-size: 40px;
+	font-size: 30px;
 }
 
+main h2,
+main p {
+	text-align: center;
+}
 
+/*.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #dedede;
+	min-height: 200px;
+}
 
+.footer__photogallery {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
 
+.footer__image {
+	margin: 10px;
+}*/
+
+.footer {
+	background-color: #dedede;
+	min-height: 180px;
+}
+
+.footer__image {
+	margin: 20px 10px;
+}
 
 @media only screen and (min-width: 768px)  { 
 	.header__heading {
@@ -33,5 +64,4 @@
 	.header__text {
 	font-size: 48px;
 	}
-
 }
